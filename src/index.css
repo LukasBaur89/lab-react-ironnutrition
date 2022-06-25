@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  margin: 1em;
+}
+
+.appContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.appContainer > * {
+  text-align: left;
+}
+
+.addForm {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.addForm button {
+  margin-top: 1em;
+}
+
+.searchBar {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
